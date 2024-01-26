@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+    .header__global-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__wrapping {
+        order: 1;
+        align-self: center;
+    }
+    .header__logo {
+        order: 2;
+    }
+    .header__title {
+        font-size: 64px;
+        margin-bottom: 14px;
+    }
+    .header__discription {
+        font-size: 22px;
+        max-width: 340px;
+        margin-bottom: 38px;
+    }
+    .header__order {
+        padding: 15px 34px;
+    }
+    .header__item-text {
+        font-size: 16px;
+    }
+    .header__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 19px 33px 20px;
+        max-width: 201px;
+        box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    }
+    .transfer {
+        display: block;
+    }
+    .header {
+        padding-bottom: 80px;
+    }
+    .icon-graph,
+    .icon-setting,
+    .icon-filter,
+    .icon-activity {
+        order: 2;
+    }
+
+    .header__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        transform: translateY(114px);
+    }
+    .main {
+        padding-top: 152px;
+    }
+    .product__title {
+        font-size: 38px;
+        max-width: 500px;
+        margin-bottom: 43px;
+    }
+    .product__wrapper {
+        margin-bottom: 114px;
+    }
+    .services__title {
+        font-size: 38px;
+        margin-bottom: 21px;
+        max-width: 460px;
+        padding-top: 0;
+        text-align: start;
+    }
+    .services__discription {
+        font-size: 14px;
+        margin-bottom: 37px;
+        max-width: 405px;
+        text-align: start;
+    }
+    .services__order {
+        padding: 15px 34px;
+    }
+    .services__wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1126px;
+    }
+}
+@media (min-width: 1080px) {
+    .product__rating {
+        min-width: 449px;
+        padding: 36px 33px 0 19px;
+    }
+    .product__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 114px;
+    }
+    .product__image {
+        width: 218px;
+        height: 291px;
+    }
+    .product__caption {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .product__discription {
+        font-size: 14px;
+    }
+    .container {
+        padding: 0 60px;
+    }
+    .services__list {
+        row-gap: 65px;
+        column-gap: 106px;
+    }
+}
